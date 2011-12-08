@@ -4,7 +4,7 @@
     <groupId>jnbis</groupId>
     <artifactId>jnbis</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.3</version>
+    <version>1.0.3-u1</version>
     <name>NIST Biometric Image Decoder</name>
     <description>NIST Biometric Image Decoder. Based on NBIS V 1.1.0 </description>
     <dependencies>
