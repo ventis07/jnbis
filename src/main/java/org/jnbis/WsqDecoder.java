@@ -341,7 +341,7 @@ public class WsqDecoder {
         int numHufvals = 0;
         /* L1 ... L16 */
         for (int i = 0; i < WsqHelper.MAX_HUFFBITS; i++) {
-            huffmanTable.huffbits[i] = (byte) token.readByte();
+            huffmanTable.huffbits[i] = token.readByte();
             numHufvals += huffmanTable.huffbits[i];
         }
         huffmanTable.bytesLeft -= WsqHelper.MAX_HUFFBITS;
