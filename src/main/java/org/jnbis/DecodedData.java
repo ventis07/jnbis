@@ -11,7 +11,7 @@ import java.util.Set;
  * @date Oct 31, 2007
  */
 public class DecodedData {
-    enum Format {
+    public enum Format {
         JPEG("jpeg"),
         GIF("gif"),
         PNG("png");
